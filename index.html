@@ -2,6 +2,13 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" >
+<script language="JavaScript" src="index.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://www.google.com/jsapi"></script>
+<script>
+    google.load("jquery", "1.10.2");
+</script>
 <meta charset="utf-8">
 </head>
 
@@ -25,23 +32,23 @@
 			</div>
 			
 			<div class="row">
-				<div class="block1">
+				<div class="block1" id="education">
 					<p>Education</p>
-					 <a href="#Section1"><img src= "education.jpg" /></a>
+					<img src= "education.jpg" />
 				</div>
-				<div class="block2">
+				<div class="block2" id="extractivities">
 					<p>Extracurricular Activities</p>
-					<a href="#Section2"><img src= "activity.jpg" /></a>
+					<img src= "activity.jpg" />
 				</div>
-				<div class="block3">
+				<div class="block3" id="skills">
 					<p>Skills & Hobbies & Others</p>
-					<a href="#Section3"><img src= "skill.jpg" /></a>
+					<img src= "skill.jpg" />
 				</div>
 				
 			</div>
 			
-			<a name="Section1"><b></b></a>
-			<div class="header">
+			
+			<div class="header" id="ed">
 			Education
 			</div>
 			<div class="row2">
@@ -59,14 +66,13 @@
 					<li>Computer Organization</li>
 					<li>Data Structure</li>
 					<li>Discrete Mathematics</li>
-					<a name="Section2"><b></b></a>
 					<li>VLSI System Design</li>
 					<li>Web Design</li>
 				</div>
 			</div>
 			
 			
-			<div class="header">
+			<div class="header" id="extra">
 			Extracurricular Activities
 			</div>
 			<div class="activity">
@@ -86,8 +92,7 @@
 				</div>
 			</div>
 			
-			<a name="Section3"><b></b></a>
-			<div class="header">
+			<div class="header" id="ski">
 			Skills & Hobbies & Others
 			</div>
 			
