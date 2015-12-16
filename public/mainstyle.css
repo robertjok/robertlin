@@ -1,0 +1,140 @@
+.cover{
+display:flex;
+flex-wrap: wrap;
+width:100%;
+height:350px;
+
+}
+
+.cover .block1{
+color: white;
+text-shadow: 4px 4px 4px black;
+height:84%;
+width:100%;
+font-family: "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: bolder;
+overflow:hidden;
+
+}
+
+
+.cover .block1 h3{
+position:absolute;
+left:300px;
+font-size: 80px;
+top:0px;
+}
+
+.cover .block1 p{
+position: absolute;
+top:135px;
+left:450px;
+font-size:32px;
+
+}
+
+.cover .block1 img{
+width:100%;
+}
+
+.cover .block3{
+width:100%;
+height:16%;
+
+}
+
+.main{
+display:flex;
+flex-wrap: wrap;
+width:100%;
+height:1300px;
+}
+
+.main .left{
+display:flex;
+flex-direction:column;
+width:20%;
+height:90%;
+background-color:#E7E288;
+}
+
+.main .left .form{
+position:relative;
+top:1%;
+width:100%;
+height:20%;
+
+}
+
+.main .left .menu{
+width:100%;
+height:80%;
+background-color:#E7E288;
+}
+
+.container{
+display:flex;
+flex-wrap: wrap;
+width:65%;
+height:90%;
+}
+
+.container .map{
+width:100%;
+height:30%;
+
+}
+
+
+.container .artist{
+width:50%;
+height:35%;
+background-color:#EFE5D2;
+}
+
+
+.container .performance{
+width:50%;
+height:35%;
+background-color:#C1D1AF;
+}
+
+.container .gallery{
+width:100%;
+height:30%;
+
+}
+
+.container .mymarquee{
+width:100%;
+height:5%;
+background-color:#5C5180;
+font-size:30px;
+font-family:微軟正黑體;
+color:white;
+}
+
+.container h4{
+position:relative;
+top:10px;
+left:10px;
+font-size:20px;
+font-family:Times New Roman;
+}
+
+.container p{
+position:relative;
+left:10px;
+}
+
+.rightside{
+width:10%;
+height:90%;
+}
+
+.myfooter{
+height:10%;
+width:100%;
+background-color:black;
+}
